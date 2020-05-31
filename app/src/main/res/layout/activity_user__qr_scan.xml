@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/colorAccent"
+    android:paddingTop="16dp"
+    tools:context=".User.User_QrScan">
+
+
+    <me.dm7.barcodescanner.zxing.ZXingScannerView
+        android:layout_width="match_parent"
+        android:id="@+id/zxscan"
+        android:layout_above="@+id/layout_result"
+        android:layout_height="match_parent"></me.dm7.barcodescanner.zxing.ZXingScannerView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/layout_result"
+        android:background="#fff"
+        android:padding="8dp"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="result"
+            android:id="@+id/txt_result"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:text="Books"
+                android:id="@+id/checkBox_book"
+                android:layout_height="wrap_content"></CheckBox>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:text="Pencil"
+                android:id="@+id/checkBox_pencil"
+                android:layout_height="wrap_content"></CheckBox>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:text="Markers"
+                android:id="@+id/checkBox_Markers"
+                android:layout_height="wrap_content"></CheckBox>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:text="Sharpener"
+                android:id="@+id/checkBox_Pencil_sharpener"
+                android:layout_height="wrap_content"></CheckBox>
+
+
+
+        </LinearLayout>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:text="other"
+            android:id="@+id/checkBox_other"
+            android:layout_height="wrap_content"></CheckBox>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="start Scaning"
+            android:id="@+id/startscan"
+            android:background="@color/colorPrimary"></Button>
+
+    </LinearLayout>
+</RelativeLayout>

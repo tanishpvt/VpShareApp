@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/All_commander"
+        android:title="Allocated Bags"
+        android:icon="@drawable/ic_bagdark_logo"
+        ></item>
+    <item
+        android:id="@+id/school"
+        android:title="Schools"
+        android:icon="@drawable/ic_school_logo"
+        ></item>
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/ic_about_logo"
+        ></item>
+
+
+</menu>

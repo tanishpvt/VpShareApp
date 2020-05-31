@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".commanderacivty.UpdateBagStatus">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="20dp"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bag Detals"
+                android:padding="10dp"></TextView>
+
+            <!--bag BarCode  section-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bag : "
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    ></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name Of Bag"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15dp"
+                    android:id="@+id/updateStatus_bagName"
+                    ></TextView>
+            </LinearLayout>
+            <!--bag id  section-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bag Id : "
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    ></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bag Id"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:padding="5dp"
+                    android:textSize="15dp"
+                    android:id="@+id/updateStatus_bagId"
+                    ></TextView>
+            </LinearLayout>
+            <!--commander id  section-->
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Commander Id : "
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    ></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Commander Id sadsadasdasdasda"
+                    android:padding="5dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15dp"
+                    android:id="@+id/updateStatus_commanderId"
+                    ></TextView>
+            </LinearLayout>
+            <!--bag location  section-->
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location : "
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    ></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location Of  Bag"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15dp"
+                    android:id="@+id/updateStatus_bagLocation"
+                    ></TextView>
+            </LinearLayout>
+
+            <!--bag location  section-->
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Update Status : "
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    ></TextView>
+               <Spinner
+                   android:layout_width="match_parent"
+                   android:id="@+id/spinner1"
+                   android:layout_height="wrap_content"></Spinner>
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/updateStatusBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Status"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="@color/colorAccent"></TextView>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent"
+    tools:context=".commanderacivty.CommanderLogin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barcode_id"
+                android:id="@+id/barcode_id"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"></TextView>
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:text="Name"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/user_login_name"
+                android:layout_height="wrap_content"></EditText>
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:text="Email"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/user_login_email"
+                android:layout_height="wrap_content"></EditText>
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:text="Password"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/user_login_password"
+                android:layout_height="wrap_content"></EditText>
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:text="Phone No"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/user_login_PhoneNo"
+                android:layout_height="wrap_content"></EditText>
+            <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:text="Address.."
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/user_login_Address"
+            android:layout_height="wrap_content"></EditText>
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:text="Area.."
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/user_login_Area"
+                android:layout_height="wrap_content"></EditText>
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:text="City"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/user_login_city"
+                android:layout_height="wrap_content"></EditText>
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:text="India"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/user_login_Country"
+                android:layout_height="wrap_content"></EditText>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:id="@+id/admin_login_submit"
+                android:background="@color/colorAccent">
+
+            </Button>
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scan Qr"
+                android:textColor="@color/colorAccent"
+                android:id="@+id/commander_scan"
+                android:background="@color/colorPrimary">
+
+            </Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

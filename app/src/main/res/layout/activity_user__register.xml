@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent"
+    tools:context=".User.User_Register">
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/loading"
+        app:lottie_fileName="loadinganimate.json"
+        android:background="@color/colorAccent"
+        android:visibility="gone"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/scrollable"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Commander_id"
+                android:id="@+id/commander_id"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barcode_id"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/barcode_id"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"></TextView>
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:text="Name"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/user_login_name"
+                android:layout_height="wrap_content"></EditText>
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:text="Email"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/user_login_email"
+                android:layout_height="wrap_content"></EditText>
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:text="Password"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/user_login_password"
+                android:layout_height="wrap_content"></EditText>
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:text="Phone No"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/user_login_PhoneNo"
+                android:layout_height="wrap_content"></EditText>
+
+            <EditText
+                android:id="@+id/user_login_Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Address.."
+                android:textColor="@color/colorPrimaryDark"></EditText>
+            <EditText
+                android:id="@+id/user_login_Area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Area.."
+                android:textColor="@color/colorPrimaryDark"></EditText>
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:text="City"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/user_login_city"
+                android:layout_height="wrap_content"></EditText>
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:text="India"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/user_login_Country"
+                android:layout_height="wrap_content"></EditText>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Donated Stuff:"
+                android:textColor="@color/colorAccent"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                ></TextView>
+
+
+            <Button
+                android:id="@+id/user_login_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryFadded"
+                android:text="SignUp"
+                android:textColor="@color/colorPrimaryDark">
+
+            </Button>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Are You Already Register.."
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="2dp"
+                android:padding="3dp"
+                android:layout_height="wrap_content"></TextView>
+            <Button
+                android:id="@+id/user_login_signIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="SignIn"
+                android:textColor="@color/colorAccent">
+
+            </Button>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

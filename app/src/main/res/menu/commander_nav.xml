@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/commander_nav_bagAllocated"
+        android:title="Allocated Bags"
+        android:icon="@drawable/ic_bag_logo"
+        ></item>
+    <item
+        android:id="@+id/commander_nav_Account"
+        android:title="Account"
+        android:icon="@drawable/ic_people_logo"
+        ></item>
+    <item
+        android:id="@+id/commander_nav_comfirmation"
+        android:title="Comfirm Bags"
+        android:icon="@drawable/ic_camera_logo"
+        ></item>
+    <item
+        android:id="@+id/user_nav_About"
+        android:title="About"
+        android:icon="@drawable/ic_about_logo"
+        ></item>
+</menu>

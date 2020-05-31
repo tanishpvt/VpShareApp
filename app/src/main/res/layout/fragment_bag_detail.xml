@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent"
+    tools:context=".User.BagDetail">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/intro_img"
+                app:lottie_fileName="truckanimate.json"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:id="@+id/cardlayout1"
+                android:layout_below="@id/intro_img"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/colorPrimary"
+                android:layout_height="wrap_content">
+            <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@color/colorPrimary"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bag ID : "
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/colorAccent"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/bagDetail_bag_id"
+                    android:text="98235"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/id"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/colorPrimary"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name : "
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/colorAccent"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/bagDetail_bagName"
+                    android:text="Bag 1"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/donated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/colorPrimary"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Donated : "
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/colorAccent"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/bagDetail_donated"
+                    android:text="Donated Stuff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/allocated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/donated"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/colorPrimary"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Allocated To : "
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/colorAccent"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/bagDetail_allocatedTo"
+                    android:text="Name Of Person"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    ></TextView>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/colorPrimary"
+                android:layout_below="@id/cardlayout1"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tracking Id : "
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ahjsbdasdysydi"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/colorAccent"
+
+                        android:id="@+id/bagDetail_trackingId"
+                        ></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bag Status : "
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bag Status"
+
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/colorAccent"
+
+                        android:id="@+id/bag_Status"
+                        ></TextView>
+
+                </LinearLayout>
+                <Button
+                    android:layout_margin="5dp"
+                    android:id="@+id/checkLocation"
+                    android:text="Chedk Bags Location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></Button>
+
+                <com.google.android.gms.maps.MapView
+                    android:id="@+id/map"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="10dp"
+                    android:layout_below="@id/checkLocation"></com.google.android.gms.maps.MapView>
+
+
+            </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

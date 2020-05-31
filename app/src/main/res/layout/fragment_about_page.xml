@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorAccent"
+    tools:context=".AboutPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Page"
+        android:textAlignment="center"
+        android:id="@+id/text1"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/text1"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/logo1"
+            android:layout_marginRight="100dp"
+            android:src="@drawable/vplogo"></ImageView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:id="@+id/cardlayout1"
+            android:layout_below="@+id/logo1"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="20dp"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/sharing"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sharing Bring Joy"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:text="Sharing is the joint use of a resource or space. It is also the process of dividing and distributing. In its narrow sense, it refers to joint or alternating use of inherently finite goods, such as a common pasture or a shared residence. Still more loosely, 'sharing' can actually mean giving something as an outright gift: for example, to 'share' one's food really means to give some of it as a gift. Sharing is a basic component of human interaction, and is responsible for strengthening social ties and ensuring a person’s well-being.
+
+Apart from obvious instances, which we can observe in human activity, we can also find many examples of this happening in nature. When an organism takes in nutrition or oxygen for instance, its internal organs are designed to divide and distribute the energy taken in, to supply parts of its body that need it. Flowers divide and distribute their seeds. In a broader sense, it can also include free granting of use rights to goods that can be treated as nonrival goods, such as information"
+                android:textColor="@color/colorAccent"></TextView>
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_below="@id/cardlayout1"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/sharing"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="@color/colorAccent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Why must we share?"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_height="match_parent"
+                android:text="This story came to me through mail. A reporter once asked a farmer why his corn won the state fair contest every year. The farmer revealed that it was because he shared his seeds with neighbours. The perplexed reporter wondered why. The farmer’s answer: “Sir, don’t you know? The wind picks up pollen from ripening corn and swirls it from field to field. If my neighbours grew inferior corn, cross-pollination would degrade the quality of my corn. If I am to grow good corn, I must help my neighbour do the same.”
+
+A simple lesson that nature teaches us, and we find difficult to imbibe. We pull down others in order to climb up. We clutch our possessions and refuse to share the good things of life. Rarely will you find a person readily sharing credit for a job well done. I have quoted this instance earlier – a senior colleague often talks about how at an interview, what went against the candidate was precisely his biggest achievement at the last job. The guy boasted about being a one-man army and took credit for everything good about the magazine he had launched. “Instead of conveying a good impression,” said my colleague, “this told me that the guy was not a good team player!”
+
+Contrary to common thinking, studies have repeatedly proved that rather than decrease what you have, sharing only succeeds in starting a circle that brings back multifold benefits. Spiritualists say this, astrologers say it, doctors say it, and now scientists and scholars have also proved it with studies. But more than anything else, our own instinct tells us the same, as does our experience after giving away to a needy person.
+
+Sharing is the one big reason for the magnificent success of social media. Sites such as Facebook, Twitter, Pinterest, etc, enable people to share their thoughts, emotions, experiences, memories and even frustrations with thousands of others at one go. And instant ‘likes’, sympathy, empathy and consolation make for immediate brightening of spirits. Social interaction helps one’s physical and mental health. Engaging in positive sharing of emotions and thoughts, and contributing to each others’ feel-good experiences helps improve health and prolong life. A study by neuroeconomics researcher Paul Zak showed that people who share and feel gratitude release oxytocin, a feel-good hormone, and experience a reduction of stress hormones. Even 10 minutes of tweeting spikes a person’s level of oxytocin."    ></TextView>
+
+        </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

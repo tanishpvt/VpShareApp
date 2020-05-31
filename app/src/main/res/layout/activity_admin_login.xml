@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminLogin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Login"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="120dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/text"
+        ></TextView>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo3"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="100dp"></ImageView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:id="@+id/admin_username"
+        android:hint="Username"
+        android:textColorHint="@color/colorPrimaryDark"
+        ></EditText>
+
+    <EditText
+        android:layout_below="@+id/admin_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:id="@+id/admin_password"
+        android:hint="Password"
+        android:textColorHint="@color/colorPrimaryDark"
+        ></EditText>
+    <EditText
+        android:layout_below="@+id/admin_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:id="@+id/admin_email"
+        android:hint="Email"
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginBtn"
+        android:text="Login"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/admin_email"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"></Button>
+
+</RelativeLayout>

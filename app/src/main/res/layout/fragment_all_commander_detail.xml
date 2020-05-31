@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Admin.AllCommanderDetail">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relative"
+        android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:id="@+id/cardview"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check All Bags Location"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:id="@+id/checkLocationBtn"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            ></TextView>
+    </androidx.cardview.widget.CardView>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_below="@+id/cardview"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerView"></androidx.recyclerview.widget.RecyclerView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2000dp"
+            android:layout_below="@+id/recyclerView"></TextView>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</FrameLayout>

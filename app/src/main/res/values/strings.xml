@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">V Share</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="status">
+        <item>User Allocated To Bags</item>
+        <item>Commander Collected Bags</item>
+        <item>Commander Sending Bags NGO</item>
+    </string-array>
+    <string name="title_activity_get_location_user">Map</string>
+    <string name="title_activity_get_bag_location_firebase">Map</string>
+    <string name="title_activity_get_school_location">Map</string>
+    <string name="title_activity_get_all_bags_location">Map</string>
+    <string name="title_activity_main_dash_board">MainDashBoard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">V Share</string>
+    <string name="nav_header_subtitle">info@vidyalankar.org</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_comander">Commander</string>
+    <string name="menu_user">User</string>
+    <string name="menu_Admin">Admin</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_vp_location">Map</string>
+
+
+
+    <string name="NEWS_CHANNEL_ID">welcome</string>
+    <string name="CHANNEL_NEWS">WelcomeNote</string>
+    <string name="CHANNEL_DESCRIPTION">it is welcome note to notify user with details</string>
+
+    <string name="DonatedNotify_ID">donated</string>
+    <string name="CHANNEL_DONATED">Donated</string>
+    <string name="CHANNEL_donatedDes">it will notify user when bgo recieved package</string>
+
+</resources>

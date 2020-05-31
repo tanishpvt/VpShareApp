@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorAccent"
+
+    tools:context=".ThereProfileActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@color/colorAccent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/backimg"
+                android:layout_height="match_parent"
+                android:src="@drawable/new2bagicon"/>
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="100dp"
+            >
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linearLayout">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:id="@+id/cardlayout1"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="@color/colorPrimary"
+                    app:cardCornerRadius="20dp"
+                    android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bag Details:"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorAccent"></TextView>
+                    <TextView
+                        android:id="@+id/bag_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bag Id:"
+                        android:layout_marginTop="20dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorAccent"></TextView>
+                    <TextView
+                        android:id="@+id/barCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BarCode:"
+                        android:layout_marginTop="20dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorAccent"></TextView>
+                    <TextView
+                        android:id="@+id/allocate_commander"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Allocated Commander:"
+                        android:layout_marginTop="20dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorAccent"></TextView>
+                    <TextView
+                        android:id="@+id/commander_Id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Commander Id:"
+                        android:layout_marginTop="20dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorAccent"></TextView>
+                    <TextView
+                        android:id="@+id/donated_stuff"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Donated Stuff:"
+                        android:layout_marginTop="20dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorAccent"></TextView>
+                    <TextView
+                        android:id="@+id/bag_Status"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bag Status:"
+                        android:layout_marginTop="20dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorAccent"></TextView>
+
+
+                </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/cardlayout1"
+                    app:cardBackgroundColor="@color/colorPrimary"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="User Details:"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorAccent"></TextView>
+                    <TextView
+                        android:id="@+id/user_Id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="User Id:"
+                        android:layout_marginTop="20dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorAccent"></TextView>
+                    <TextView
+                        android:id="@+id/user_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:"
+                        android:layout_marginTop="20dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorAccent"></TextView>
+                    <TextView
+                        android:id="@+id/user_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Address:"
+                        android:layout_marginTop="20dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorAccent"></TextView>
+                    <TextView
+                        android:id="@+id/user_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Phone No:"
+                        android:layout_marginTop="20dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorAccent"></TextView>
+                    <TextView
+                        android:id="@+id/user_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Email :"
+                        android:layout_marginTop="20dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorAccent"></TextView>
+
+                </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+        </ScrollView>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

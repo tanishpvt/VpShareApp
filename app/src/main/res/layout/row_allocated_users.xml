@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_margin="2dp"
+        android:padding="3dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="70dp"
+            android:id="@+id/avatarIv"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="70dp"
+            android:src="@drawable/usericon"
+            />
+        <LinearLayout
+            android:layout_marginLeft="13dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nametv"
+                android:text="person name"
+                android:textAlignment="textStart"
+                android:textColor="#000"
+                android:textSize="18dp"
+                style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:scaleType="fitXY"
+                    android:padding="3dp"
+                    android:src="@drawable/websiteicon"></ImageView>
+            <TextView
+                android:id="@+id/emailTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mail@.com"
+                android:textColor="#000"
+                android:paddingLeft="10dp"
+                />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:scaleType="fitXY"
+                    android:padding="3dp"
+                    android:src="@drawable/new2bagicon"></ImageView>
+            <TextView
+                android:id="@+id/donated_stuff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:paddingLeft="10dp"
+                android:text="Donated stuff"
+                />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

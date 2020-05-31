@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="School Register"
+                android:textSize="35dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:hint="School Name"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/school_login_name"
+                android:layout_height="wrap_content"></EditText>
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:hint="Required Stuff"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/school_login_requiredStuff"
+                android:layout_height="wrap_content"></EditText>
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:hint="Email"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/school_login_email"
+                android:layout_height="wrap_content"></EditText>
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:hint="Password"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/school_login_password"
+                android:layout_height="wrap_content"></EditText>
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:hint="Phone No"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/school_login_PhoneNo"
+                android:layout_height="wrap_content"></EditText>
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:hint="Address.."
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/school_login_Address"
+                android:layout_height="wrap_content"></EditText>
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:hint="Area.."
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/school_login_Area"
+                android:layout_height="wrap_content"></EditText>
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:hint="City"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/school_login_city"
+                android:layout_height="wrap_content"></EditText>
+
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textColor="@color/colorAccent"
+                android:id="@+id/admin_login_submit"
+                android:background="@color/colorPrimary">
+
+            </Button>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="are you already register"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content"></TextView>
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign In"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/admin_login_signIn"
+                android:background="@color/colorAccent">
+
+            </Button>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

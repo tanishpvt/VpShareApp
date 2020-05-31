@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "576045884629",
+    "firebase_url": "https://vpshareapp.firebaseio.com",
+    "project_id": "vpshareapp",
+    "storage_bucket": "vpshareapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576045884629:android:cbc5bf1ac5f33de9fdae5c",
+        "android_client_info": {
+          "package_name": "com.example.vpshareapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl3kJwEpjj3EVWWoKtRxFIdjlo23fhLo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
