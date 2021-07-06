@@ -2,7 +2,7 @@
 
 ![](https://firebasestorage.googleapis.com/v0/b/vpshareapp.appspot.com/o/vplogo-min.png?alt=media&token=e6345f1f-ad61-4b63-9730-270ef41b07df)
 
-###                                             Developed by 
+###                                             DEVELOPED BY
 ###                                      AKSHAY JADHAV TANISH MOHANTY 
                                        
 ### Under the guidance of Mr. Anjum Mujawar 
